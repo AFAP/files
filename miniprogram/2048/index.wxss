@@ -1,0 +1,82 @@
+Page {
+  box-sizing: border-box;
+  background-color: #232639;
+  height: 100%;
+}
+
+.area-top {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.container-top {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 32px 32px;
+}
+
+.box-score {
+  background-color: #0b2f58d2;
+  border-radius: 10px;
+  padding: 8px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.area-bottom {
+  width: 100%;
+  padding: 10px;
+}
+
+.game-board {
+  border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #bbada088;
+}
+
+.row {
+  display: flex;
+}
+
+.block {
+  width: 25%;
+  margin: 6px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgb(237, 224, 200);
+  border-radius: 12px;
+}
+
+.block8 {
+  background-color: rgb(242, 177, 121);
+}
+
+.block16 {
+  background-color: rgb(245, 149, 99);
+}
+
+.block32 {
+  background-color: rgb(246, 124, 95);
+}
+
+.block64 {
+  background-color: rgb(237, 207, 114);
+}
+
+.block128 {
+  background-color: rgb(237, 207, 114);
+}
